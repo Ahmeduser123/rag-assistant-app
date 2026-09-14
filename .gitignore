@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment files (contain local config, never commit)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data (document how to regenerate in README instead of committing)
+backend/data/vector_store/
+data/raw/
+
+# IDE
+.vscode/
