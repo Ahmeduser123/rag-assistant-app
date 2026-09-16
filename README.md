@@ -201,8 +201,24 @@ The system correctly abstains ("no information available") rather than hallucina
 
 ## Screenshots
 
-(Add screenshots of the running Streamlit app here before submission — a question being asked, the grounded answer, and the expanded sources section.)
+## Screenshots
 
+**Chat interface**
+
+![Empty chat interface](assets/01-empty-interface.png)
+
+**Grounded, cited answer**
+
+![Grounded answer example](assets/02-grounded-answer.png)
+
+**Correct abstention on an out-of-scope question** — the assistant declines to answer rather than hallucinate when the question falls outside the corpus.
+
+![Out-of-scope abstention example](assets/03-out-of-scope-abstention.png)
+
+**A practical question with its cited sources**
+
+![Practical question example](assets/04-practical-question.png)
+![Sources for the practical question](assets/05-practical-question-sources.png)
 ## Known Limitations
 
 - Corpus is limited to 30 drugs; questions about medications outside this set will correctly return "no information available" rather than an answer.
